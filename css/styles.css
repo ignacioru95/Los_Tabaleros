@@ -2,7 +2,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Merriweather", serif;
-  background-color: #2f2e2e;
+  /*background-color: #2f2e2e;*/
+background: linear-gradient(180deg, rgba(11,11,11,1) 22%, rgba(139,125,125,1) 50%, rgb(209, 177, 177) 84%);
   color:white
 }
 
@@ -17,10 +18,21 @@ body {
   padding-bottom: 0.5rem;
 }
 
+.navbar-nav li{
+  height: 30px;
+  transition: height 2s
+}
+
+.navbar-nav li:hover {
+  background-color: #f6c215;
+  height: 50px;
+}
+
 .navbar-style {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  background-color: #0f0e0f;
+  /*background-color: #0f0e0f;*/
+  background: radial-gradient(circle, rgba(11,11,11,1) 22%, rgba(139,125,125,1) 50%, rgba(255,255,255,1) 84%);
   widt
 }
 
@@ -58,6 +70,23 @@ body {
   display: inline-block;
 }
 
+h1 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes aparecer {
+  0% {
+  opacity: 0;
+}
+  100% {
+  opacity: 1;
+}
+}
+
+
 .container-banner-home {
   background-color: #1c1a1c;
   width: 84.375rem;
@@ -91,6 +120,10 @@ body {
   position: relative !important;
   top: 3.125rem;
   left: 34.375rem;
+}
+
+.img-banner img:hover {
+  transform: scale(2,2);
 }
 
 .button-album button {
@@ -153,6 +186,10 @@ justify-content: center;
 .m-img {
   margin-top: 3rem!important;
   margin-left: 13rem!important;
+}
+
+.m-img:hover {
+  transform: scale(2,2);
 }
 
 .text-align {
@@ -352,3 +389,4 @@ padding: 1rem;
 .contacto label {
   font-weight: 700;
 }
+
