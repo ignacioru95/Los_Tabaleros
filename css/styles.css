@@ -2,13 +2,13 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Merriweather", serif;
-  /*background-color: #2f2e2e;*/
-background: linear-gradient(180deg, rgba(11,11,11,1) 22%, rgba(139,125,125,1) 50%, rgb(209, 177, 177) 84%);
-  color:white
+  background-color: #2f2e2e;
+  /*background: linear-gradient(180deg, rgba(11,11,11,1) 22%, rgba(139,125,125,1) 50%, rgb(209, 177, 177) 84%);*/
+  color: white;
 }
 
 /*Menu de Navegacion*/
-.navbar {
+/* .navbar {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -16,27 +16,33 @@ background: linear-gradient(180deg, rgba(11,11,11,1) 22%, rgba(139,125,125,1) 50
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
+} */
 
-.navbar-nav li{
+/* .navbar-nav li{
   height: 30px;
   transition: height 2s
-}
+} */
 
-.navbar-nav li:hover {
+/*.navbar-nav li:hover {
   background-color: #f6c215;
   height: 50px;
-}
+}*/
 
 .navbar-style {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  background-color: #0f0e0f;
+  color: white !important;
   /*background-color: #0f0e0f;*/
-  background: radial-gradient(circle, rgba(11,11,11,1) 22%, rgba(139,125,125,1) 50%, rgba(255,255,255,1) 84%);
-  widt
+  /* background: radial-gradient(
+    circle,
+    rgba(11, 11, 11, 1) 22%,
+    rgba(139, 125, 125, 1) 50%,
+    rgba(255, 255, 255, 1) 84%
+  ); */
 }
 
-.navbar-brand a {
+/* .navbar-brand a {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   padding-left: 8rem;
@@ -45,6 +51,10 @@ background: linear-gradient(180deg, rgba(11,11,11,1) 22%, rgba(139,125,125,1) 50
   text-decoration: none;
   white-space: nowrap;
   color: #f6c215;
+} */
+
+.space {
+  justify-content: space-between !important;
 }
 
 .navbar-nav {
@@ -76,16 +86,14 @@ h1 {
   animation-iteration-count: infinite;
 }
 
-
 @keyframes aparecer {
   0% {
-  opacity: 0;
-}
+    opacity: 0;
+  }
   100% {
-  opacity: 1;
+    opacity: 1;
+  }
 }
-}
-
 
 .container-banner-home {
   background-color: #1c1a1c;
@@ -98,14 +106,12 @@ h1 {
   position: absolute;
   top: 8.125rem;
   left: 11.875rem;
-
 }
 
 .subtitle-banner-style-1 {
   position: absolute;
   top: 11.25rem;
   left: 6.25rem;
-
 }
 
 .subtitle-banner-style-2 {
@@ -113,7 +119,6 @@ h1 {
   top: 14.375rem;
   left: 8.125rem;
 }
-
 
 .img-banner img {
   width: 50%;
@@ -123,7 +128,7 @@ h1 {
 }
 
 .img-banner img:hover {
-  transform: scale(2,2);
+  transform: scale(2, 2);
 }
 
 .button-album button {
@@ -149,22 +154,22 @@ h1 {
 
 /*Main*/
 .d-flex {
-display: flex!important;
+  display: flex !important;
 }
 
 .justify-content-center {
-justify-content: center;
+  justify-content: center;
 }
 
 .title-main-home-style {
   font-size: 3rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container-main-home {
   width: 80%;
-  padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: var(--bs-gutter-x,.75rem);
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
 }
@@ -179,17 +184,17 @@ justify-content: center;
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-.5 * var(--bs-gutter-x));
-  margin-left: calc(-.5 * var(--bs-gutter-x));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 
 .m-img {
-  margin-top: 3rem!important;
-  margin-left: 13rem!important;
+  margin-top: 3rem !important;
+  margin-left: 13rem !important;
 }
 
 .m-img:hover {
-  transform: scale(2,2);
+  transform: scale(2, 2);
 }
 
 .text-align {
@@ -246,25 +251,24 @@ justify-content: center;
 }
 /*Fin Footer*/
 
-
 /*Main Galeria*/
 
 .container-galeria {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .row-galeria {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: 110px;
-    padding: 0.5rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 110px;
+  padding: 0.5rem;
 }
 
 .row-galeria img {
@@ -272,35 +276,34 @@ justify-content: center;
 }
 
 .mt-galeria {
-  margin-top: 3rem!important;
+  margin-top: 3rem !important;
 }
-
 
 .text-galeria {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 12px;
 }
 
-.text-galeria2  {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 130px;
+.text-galeria2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 130px;
 }
 
 .img-galeria {
-  width:351.33px ;
-height: 219.59px;
+  width: 351.33px;
+  height: 219.59px;
 }
 
 .row-galeria iframe {
-padding: 1rem;
+  padding: 1rem;
 }
 
 /*Main Tour*/
@@ -314,16 +317,15 @@ padding: 1rem;
 }
 
 .list-group {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-
 
 .conteiner-conciertos ul {
   padding: 2rem;
 }
 
-.button-album-tour button{
+.button-album-tour button {
   position: absolute;
   background-color: #f6c215;
   border-radius: 12px;
@@ -390,3 +392,45 @@ padding: 1rem;
   font-weight: 700;
 }
 
+/*Main Bootstrap*/
+
+.navbar-background {
+  background-color: #0f0e0f !important;
+}
+
+.card-style {
+  background-color: #0f0e0f;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.border-none {
+  border: none;
+}
+
+.button-style {
+  background-color: #f6c215;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.box1 .card {
+  margin: 2rem;
+}
+
+.box2 .card {
+  margin: 2rem;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 3rem;
+}
