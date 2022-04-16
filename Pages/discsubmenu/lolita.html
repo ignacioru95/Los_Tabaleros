@@ -9,77 +9,79 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@600&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="../../css/styles.css">
   <title>Pagina de Banda/ Ignacio Rosales Urrestarazu</title>
 </head>
 
 <body>
   <!--Menú-->
-  <header>
-    <nav>
-      <a href="../../index.html">Los Tabaleros</a>
-      <div>
-        <ul>
-          <li>
-            <a href="../../index.html">Home</a>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-style">
+    <div class="container-fluid">
+      <a class="navbar-brand title-nav-style m-2" href="../../index.html">Los Tabaleros</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse m-1" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../index.htm">Home</a>
           </li>
-          <li>
-            <a href="../integrantes.html">Integrantes</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../integrantes.html">Integrantes</a>
           </li>
-          <li>
-            <a href="../tour.html">Tour</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../tour.html">Tour</a>
           </li>
-          <li>
-            <a href="../galeria.html">Galeria</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../galeria.html">Galeria</a>
           </li>
-          <li>
-            <a href="../albums.html">Albums</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Albums
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./carmesi.html">Carmesi</a></li>
+              <li><a class="dropdown-item" href="./lolita.html">Lolita</a></li>
+              <li><a class="dropdown-item" href="./tuy.html">Tuy</a></li>
+              <li><a class="dropdown-item" href="./chuy.html">¡Chuy!</a></li>
+              <li><a class="dropdown-item" href="./unanocheenelparaisoescondido.html">Paraiso Escondido</a></li>
+            </ul>
           </li>
-          <ul>
-            <li>
-              <a href="./carmesi.html">Carmesí</a>
-            </li>
-            <li>
-              <a href="./lolita.html">Lolita</a>
-            </li>
-            <li>
-              <a href="./tuy.html">¡Tuy!</a>
-            </li>
-            <li>
-              <a href="./chuy.html">Chuy</a>
-            </li>
-            <li>
-              <a href="./unanocheenelparaisoescondido.html">Una Noche en el Paraiso Escondido</a>
-            </li>
-          </ul>
-          <li>
-            <a href="../contacto.html">Contacto</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
           </li>
         </ul>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
   <!--Fin delMenú-->
 
-  <video class="img-fluid" src="../../vid/final_6252cdbe30113300a017b343_336594.mp4" autoplay muted loop></video>
+  <video class="img-fluid" src="../../vid/final_625b45fda1217b0085215ed4_490014.mp4" autoplay muted loop></video>
 
   <!--Main-->
   <main>
     <section>
       <article>
-        <h1>
+        <h1 class="album-tittle justify-content-end d-flex ">
           LOLITA
         </h1>
-        <div>
-          <img src="../../img/lolita.jpg" alt="Portada Disco Carmesi">
+        <div class="container">
+          <img class="mg-fluid portada-album" src="../../img/lolita.jpg" alt="Portada Disco Carmesi">
         </div>
       </article>
 
-      <div>
-        <h2>
+      <div class="container">
+        <h2 class="text-center p-1 title-style-albums">
           EN ESTE ALBUM
         </h2>
       </div>
+
+
       <ol>
         <li>
           <p>
@@ -222,38 +224,34 @@
   <!--Fin del Main-->
 
   <!--Footer-->
-  <footer>
-    <div>
-      <p>
-        Página sin fines de lucro ni comerciales
-      </p>
-      <p>
-        Copyright Ignacio Rosales Urrestarazu ©
-      </p>
-    </div>
-    <div>
-      <ul>
-        <li>
-          <a href="https://www.youtube.com/channel/UC4ObLsacieLRUJtCXMSlKjA"><img src="../../img/pngegg (2).png"
+  <footer class="footer-style static-bottom ">
+    <div class="container p-2">
+      <div class="row">
+        <div class="col-6">
+          <p class="text-light">
+            <small>Copyright &copy; 1995 - 2022 | Ignacio Rosales Urrestarazu</small>
+          </p>
+        </div>
+        <div class="col-6 text-center">
+          <a href="https://www.youtube.com/channel/UC4ObLsacieLRUJtCXMSlKjA"><img src="../../img/youtube32x32.png"
               alt="Youtube"></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/lostabaleros/"><img src="../../img/pngegg.png" alt="Instagram"></a>
-        </li>
-        <li>
-          <a href="https://open.spotify.com/artist/6aGMO33ETXuACXj9KfoyQg"><img src="../../img/pngegg (3).png"
+          <a class="p-3" href="https://www.instagram.com/lostabaleros/"><img src="../../img/instagram32x32.png"
+              alt="Instagram"></a>
+          <a href="https://open.spotify.com/artist/6aGMO33ETXuACXj9KfoyQg"><img src="../../img/spotify32x32.png"
               alt="Spotify"></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/lostabaleros"><img src="../../img/pngegg (4).png" alt="Twitter"></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/los.tabaleros/"><img src="../../img/pngegg (1).png" alt="Facebook"></a>
-        </li>
-      </ul>
+          <a class="p-3" href="https://twitter.com/lostabaleros"><img src="../../img/twitter32x32.png"
+              alt="Twitter"></a>
+          <a href="https://www.facebook.com/los.tabaleros/"><img src="../../img/facebook32x32.png" alt="Facebook"></a>
+        </div>
+      </div>
     </div>
   </footer>
   <!--Fin Footer-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
