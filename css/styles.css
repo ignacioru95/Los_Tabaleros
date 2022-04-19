@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: "Merriweather", serif;
   background-color: #1c1a1c;
+  font-size: 14px;
   color: white;
 }
 
@@ -100,6 +101,18 @@ video {
   height: 25rem;
   margin-bottom: 3.75rem;
 }
+
+.img-albums-style {
+  width: 29.5rem;
+  height: 29.5rem;
+}
+
+.card-title-albums {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: Black;
+}
+
 /* Fin Albums Estilos */
 
 /*Galeria*/
@@ -114,6 +127,10 @@ video {
 .img-size {
   width: 22.5rem;
   height: 13.75rem;
+}
+
+.m-3 {
+  margin: 1rem !important;
 }
 /*Fin Galeria*/
 
@@ -132,6 +149,12 @@ video {
   padding: 0.5rem !important;
 }
 
+.title-galeria {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 50px;
+}
 /*Fin Footer*/
 
 /*Banner*/

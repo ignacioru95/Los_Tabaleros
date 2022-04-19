@@ -5,127 +5,160 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@600&display=swap"
     rel="stylesheet">
+  <!-- Animate-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Estilos propios -->
   <link rel="stylesheet" href="../css/styles.css">
   <title>Pagina de Banda/ Ignacio Rosales Urrestarazu</title>
 </head>
 
 <body>
   <!--Menú-->
-  <header>
-    <nav class="navbar navbar-style">
-      <section class="navbar-brand">
-        <a href="../index.html">Los Tabaleros</a>
-      </section>
-      <div>
-        <ul class="navbar-nav">
-          <li>
-            <a href="../index.html">Home</a>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-style">
+    <div class="container-fluid">
+      <a class="navbar-brand title-nav-style m-2" href="../index.html">Los Tabaleros</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse m-1" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
           </li>
-          <li>
-            <a href="./integrantes.html">Integrantes</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./integrantes.html">Integrantes</a>
           </li>
-          <li>
-            <a href="./tour.html">Tour</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./tour.html">Tour</a>
           </li>
-          <li>
-            <a href="./galeria.html">Galeria</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./galeria.html">Galeria</a>
           </li>
-          <li>
-            <a href="./albums.html">Albums</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Albums
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Todos los Albums</a></li>
+              <li><a class="dropdown-item" href="../Pages/discsubmenu/carmesi.html">Carmesi</a></li>
+              <li><a class="dropdown-item" href="./lolita.html">Lolita</a></li>
+              <li><a class="dropdown-item" href="../Pages/discsubmenu/tuy.html">Tuy</a></li>
+              <li><a class="dropdown-item" href="../Pages/discsubmenu/chuy.html">¡Chuy!</a></li>
+              <li><a class="dropdown-item" href="../Pages/discsubmenu/unanocheenelparaisoescondido.html">Paraiso
+                  Escondido</a></li>
+            </ul>
           </li>
-          <li>
-            <a href="./contacto.html">Contacto</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../Pages/contacto.html">Contacto</a>
           </li>
         </ul>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
   <!--Fin delMenú-->
 
   <!--Main-->
+
+  <!--Fin del Main-->
   <main>
-    <h1>Elige un Album!</h1>
+
     <section>
       <article>
         <div class="container">
-          <div>
-            <div>
-              <div>
-                <a href="../Pages/discsubmenu/carmesi.html"><img src="../img/carmesi.jpg" alt="Carmesí"></a>
-              </div>
-              <div>
-                <h5>Carmesi</h5>
+          <div class="col-12 col-md-12 col-lg-12 title-galeria text-center">
+            <h2>Elige un Album!, Conan!</h2>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 g-0">
+            <div class="col p-5 ">
+              <div class="card">
+                <a href="../Pages/discsubmenu/carmesi.html"><img src="../img/carmesi.jpg"
+                    class="img-fluid img-albums-style" draggable="false" alt="Carmesí"></a>
+                <div class="card-body row w-100">
+                  <h5 class="card-title-albums text-center">Carmesi</h5>
+                </div>
               </div>
             </div>
-            <div>
-              <div>
-                <div>
-                  <a href="../Pages/discsubmenu/lolita.html"><img src="../img/lolita.jpg" alt="Lolita"></a>
-                </div>
-                <div>
-                  <h5>Lolita</h5>
+            <div class=" col p-5">
+              <div class="card">
+                <a href="../Pages/discsubmenu/lolita.html"><img src="../img/lolita.jpg"
+                    class="img-fluid img-albums-style" draggable="false" alt="Lolita"></a>
+                <div class="card-body">
+                  <h5 class="card-title-albums text-center">Lolita</h5>
                 </div>
               </div>
-              <div>
-                <div>
-                  <div>
-                    <a href="../Pages/discsubmenu/tuy.html"><img src="../img/tuy.jpg" alt="¡Tuy!"></a>
-                  </div>
-                  <div>
-                    <h5>¡Tuy!</h5>
-                  </div>
+            </div>
+            <div class="col p-5">
+              <div class="card">
+                <a href="../Pages/discsubmenu/tuy.html"><img src="../img/tuy.jpg" class="img-fluid img-albums-style"
+                    draggable="false" alt="¡Tuy!"></a>
+                <div class="card-body">
+                  <h5 class="card-title-albums text-center">¡Tuy!</h5>
                 </div>
-                <div>
-                  <div>
-                    <div>
-                      <a href="../Pages/discsubmenu/chuy.html"><img src="../img/chuy.jpg" alt="Chuy"></a>
-                    </div>
-                    <div>
-                      <h5>Chuy</h5>
-                    </div>
-                  </div>
-                  <div>
-                    <div>
-                      <div>
-                        <a href="../Pages/discsubmenu/unanocheenelparaisoescondido.html"><img
-                            src="../img/paraiso escondido.jpg" alt="Una Noche el el Paraiso Escondido"></a>
-                      </div>
-                      <div>
-                        <h5>Una Noche el el Paraiso Escondido”</h5>
-                      </div>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="col p-5">
+              <div class="card">
+                <a href="../Pages/discsubmenu/chuy.html"><img src="../img/chuy.jpg" class="img-fluid img-albums-style"
+                    draggable="false" alt="Chuy"></a>
+                <div class="card-body">
+                  <h5 class="card-title-albums text-center">Chuy</h5>
                 </div>
+              </div>
+            </div>
+            <div class="col p-5">
+              <div class="card">
+                <a href="../Pages/discsubmenu/unanocheenelparaisoescondido.html"><img src="../img/paraiso escondido.jpg"
+                    class="img-fluid img-albums-style" draggable="false" alt="Una Noche el el Paraiso Escondido"></a>
+                <div class="card-body">
+                  <h5 class="card-title-albums text-center">Una Noche el el Paraiso Escondido</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </article>
     </section>
   </main>
-  <!--Fin del Main-->
 
   <!--Footer-->
-  <footer class="footer-style">
-    <div class="container">
-      <div class="container-footer p-5">
-        <div class="text-left info-footer">
-          <p>Página sin fines de lucro ni comerciales</p>
-          <p>Copyright Ignacio Rosales Urrestarazu©</p>
+  <footer class="footer-style static-bottom ">
+    <div class="container p-2">
+      <div class="row">
+        <div class="col-6">
+          <p class="text-light">
+            <small>Copyright &copy; 1995 - 2022 | Ignacio Rosales Urrestarazu</small>
+          </p>
         </div>
-        <div class="text-center redes">
+        <div class="col-6 text-center">
           <a href="https://www.youtube.com/channel/UC4ObLsacieLRUJtCXMSlKjA"><img src="../img/youtube32x32.png"
               alt="Youtube"></a>
-          <a href="https://www.instagram.com/lostabaleros/"><img src="../img/instagram32x32.png" alt="Instagram"></a>
+          <a class="p-3" href="https://www.instagram.com/lostabaleros/"><img src="../img/instagram32x32.png"
+              alt="Instagram"></a>
           <a href="https://open.spotify.com/artist/6aGMO33ETXuACXj9KfoyQg"><img src="../img/spotify32x32.png"
               alt="Spotify"></a>
-          <a href="https://twitter.com/lostabaleros"><img src="../img/twitter32x32.png" alt="Twitter"></a>
+          <a class="p-3" href="https://twitter.com/lostabaleros"><img src="../img/twitter32x32.png" alt="Twitter"></a>
           <a href="https://www.facebook.com/los.tabaleros/"><img src="../img/facebook32x32.png" alt="Facebook"></a>
         </div>
       </div>
     </div>
   </footer>
   <!--Fin Footer-->
+
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
