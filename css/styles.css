@@ -102,6 +102,21 @@ video {
 }
 /* Fin Albums Estilos */
 
+/*Galeria*/
+.slide {
+  margin-top: 0.625rem;
+}
+
+.slide img {
+  height: 35rem;
+}
+
+.img-size {
+  width: 22.5rem;
+  height: 13.75rem;
+}
+/*Fin Galeria*/
+
 /*Footer*/
 .footer-style {
   background-color: #0f0e0f;
