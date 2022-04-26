@@ -1,1 +1,41 @@
+@import "variables";
+
 /*Menu de Navegacion*/
+
+.navbar-style {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  background-color: $color-navbar;
+}
+
+nav {
+  div {
+    a {
+      font-size: $fuente-navbar;
+    }
+  }
+}
+
+.nav-link {
+  li {
+    &:hover {
+      background-color: $color-amarillo;
+      padding: 8px 12px;
+      border-radius: 0.5rem;
+      transition: 1s;
+    }
+  }
+}
+
+.nav-link {
+  a {
+    &:hover {
+      background-color: $color-amarillo;
+      padding: 8px 12px;
+      border-radius: 0.5rem;
+      transition: 1s;
+    }
+  }
+}
+
+/* Fin estilos Menu de Navegacion*/
