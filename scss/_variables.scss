@@ -1,20 +1,23 @@
-//Paleta de colores:
-$color-navbar: #0f0e0f;
+// Paleta de colores:
+$color-navbar: rgba(0, 0, 0, 0.5);
 $color-texto: white;
 $color-amarillo: #f6c215;
 $color-body: #1c1a1c;
 
-//Tipografias:
+// Tipografias:
 $tipografia-titulos: "Montserrat", sans-serif;
 $tipografia-general: "Merriweather", serif;
+$tipoografia-home: "Bangers", cursive;
 
-//Fuentes
+// Fuentes
 $fuente-normal: 0.875rem;
 $fuente-navbar: 1.1rem;
 $fuente-titulos: 2rem;
 $fuente-titulos2: 1.5rem;
 $fuente-titulos3: 3rem;
 $fuente-titulos4: 2.5rem;
-$fuente-titulos5: 2.5rem;
+$fuente-titulos5: 4.5rem;
 
-//Espaciados
+// Espaciados
+$margen-uno: 0rem 2rem 0rem 0rem !important;
+$margen-dos: 0rem 0rem 0rem 2rem !important;
