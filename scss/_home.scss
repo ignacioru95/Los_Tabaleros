@@ -20,7 +20,7 @@ section {
   }
 }
 
-// Mediaqueri mobile
+// Mediaqueris mobile
 @media screen and (max-width: 768px) {
   section {
     h1 {
@@ -29,7 +29,8 @@ section {
     }
   }
 }
-// Mediaqueri Tablet
+
+// Mediaqueris Tablet
 @media screen and (max-width: 480px) {
   section {
     h1 {
@@ -45,8 +46,11 @@ article {
     @include flex-row-center;
     padding-top: 5rem;
     font-family: $tipografia-titulos;
-    font-size: $fuente-titulos4;
+    font-size: $fuente-titulos3;
   }
 }
 
-// Parrafos
+// Texto-parrafos home
+p {
+  text-align: center;
+}
