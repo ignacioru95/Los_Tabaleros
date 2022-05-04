@@ -4,3 +4,8 @@
   flex-wrap: nowrap;
   justify-content: center;
 }
+
+@mixin titulos {
+  font-family: $tipografia-titulos;
+  font-size: $fuente-titulos3;
+}

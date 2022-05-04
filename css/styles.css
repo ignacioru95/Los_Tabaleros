@@ -2,7 +2,7 @@
 .navbar-style {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: #0f0e0f; }
 
 nav div a {
   font-size: 1.1rem; }
@@ -52,18 +52,37 @@ article h3 {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  padding-top: 5rem;
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem; }
+  font-size: 3rem;
+  padding-top: 5rem; }
 
 p {
   text-align: center; }
+
+/*Integrantes*/
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem; }
+
+.card {
+  background-color: #0f0e0f;
+  text-align: center;
+  font-family: "Bangers", cursive;
+  font-size: 2rem; }
+  .card img {
+    width: 17.875rem;
+    height: 22.335rem; }
+
+/*Galeria*/
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem; }
 
 /*Footer*/
 footer {
   padding: 2rem;
   display: block;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: #0f0e0f; }
 
 .redes-sociales a {
   padding: 0.313rem; }

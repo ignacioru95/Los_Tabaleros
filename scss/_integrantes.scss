@@ -3,4 +3,21 @@
 
 /*Integrantes*/
 
+// Titulo
+
+h2 {
+  @include titulos;
+}
+
 // Cards
+
+.card {
+  background-color: $color-navbar;
+  text-align: center;
+  font-family: $tipoografia-home;
+  font-size: $fuente-titulos;
+  img {
+    width: 17.875rem;
+    height: 22.335rem;
+  }
+}
