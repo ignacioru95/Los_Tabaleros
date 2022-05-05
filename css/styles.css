@@ -54,15 +54,21 @@ article h3 {
   justify-content: center;
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
-  padding-top: 5rem; }
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
 
 p {
   text-align: center; }
 
+.introduccion {
+  background-color: #2f2e2e; }
+
 /*Integrantes*/
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem; }
+  font-size: 3rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem; }
 
 .card {
   background-color: #0f0e0f;
@@ -70,9 +76,13 @@ h2 {
   font-family: "Bangers", cursive;
   font-size: 2rem; }
   .card img {
-    width: 17.875rem;
     height: 22.335rem; }
 
+.btn-primary {
+  background-color: #f6c215;
+  border-color: white; }
+
+/*Fin Integrantes*/
 /*Galeria*/
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -90,34 +100,31 @@ footer {
 /*Albums*/
 .title-galeria {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  color: white;
-  padding-top: 50px; }
+  font-size: 3rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem; }
 
-.card-albums {
-  height: 25rem;
-  margin-bottom: 3.75rem; }
+.card {
+  border: solid 0.125rem whitesmoke; }
+  .card a img {
+    width: 29.5rem;
+    height: 29.5rem; }
 
-.img-albums-style {
-  width: 29.5rem;
-  height: 29.5rem; }
+.card-body {
+  padding: 1.875rem; }
 
 .card-title-albums {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  color: Black; }
+  font-family: "Bangers", cursive;
+  font-size: 2rem; }
 
 /*Fin Albums*/
-/*Maps*/
-.btn--facebook {
-  background-color: red; }
+/*Sub menu Discos*/
+/*Contacto*/
+.parrafo-contacto {
+  font-size: 1.25rem;
+  text-align: left !important; }
 
-.btn--intagram {
-  background-color: blue; }
-
-.btn--twitter {
-  background-color: yellow; }
-
+/*Fin Contacto*/
 body {
   padding: 0;
   margin: 0;

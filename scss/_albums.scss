@@ -1,26 +1,32 @@
 @import "variables";
+@import "mixins";
 
 /*Albums*/
+
+// Titulo
 .title-galeria {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  color: white;
-  padding-top: 50px;
+  @include titulos;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
 }
 
-.card-albums {
-  height: 25rem;
-  margin-bottom: 3.75rem;
+.card {
+  border: solid 0.125rem whitesmoke;
+  a {
+    img {
+      width: 29.5rem;
+      height: 29.5rem;
+    }
+  }
 }
 
-.img-albums-style {
-  width: 29.5rem;
-  height: 29.5rem;
+.card-body {
+  padding: 1.875rem;
 }
 
 .card-title-albums {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  color: Black;
+  font-family: $tipoografia-home;
+  font-size: $fuente-titulos;
 }
+
 /*Fin Albums*/

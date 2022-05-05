@@ -46,10 +46,15 @@ article {
     @include flex-row-center;
     @include titulos;
     padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }
 
 // Texto-parrafos home
 p {
   text-align: center;
+}
+
+.introduccion {
+  background-color: $color-footer;
 }

@@ -7,6 +7,8 @@
 
 h2 {
   @include titulos;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
 }
 
 // Cards
@@ -17,7 +19,13 @@ h2 {
   font-family: $tipoografia-home;
   font-size: $fuente-titulos;
   img {
-    width: 17.875rem;
     height: 22.335rem;
   }
 }
+
+.btn-primary {
+  background-color: $color-amarillo;
+  border-color: white;
+}
+
+/*Fin Integrantes*/
