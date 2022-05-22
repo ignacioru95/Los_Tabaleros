@@ -78,35 +78,55 @@ h2 {
   padding-top: 3.125rem;
   padding-bottom: 3.125rem; }
 
-.card {
+.cardMember {
   background-color: #0f0e0f;
   text-align: center;
   font-family: "Bangers", cursive;
   font-size: 2rem; }
-  .card img {
+  .cardMember img {
     height: 22.335rem; }
+
+.cardMember img:hover {
+  transform: scale(1.1); }
 
 .btn-primary {
   background-color: #f6c215;
   border-color: white; }
 
+@media screen and (max-width: 768px) {
+  .cardMember {
+    margin-left: 12.5rem;
+    margin-bottom: 1rem; } }
+
+@media (min-width: 240px) and (max-width: 534px) {
+  .cardMember {
+    margin-left: 0.6rem;
+    margin-bottom: 1rem; } }
+
 /*Fin Integrantes*/
 /*Galeria*/
 h2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem; }
 
-/*Footer*/
-footer {
-  padding: 2rem;
-  display: block;
-  background-color: #0f0e0f; }
+div iframe {
+  padding: 20px; }
 
-.redes-sociales a {
-  padding: 0.313rem; }
+@media screen and (max-width: 768px) {
+  div img {
+    padding-bottom: 1rem; } }
+
+@media (min-width: 240px) and (max-width: 534px) {
+  div iframe {
+    width: 18.75rem;
+    height: 10.625rem; } }
 
 /*Albums*/
-.title-galeria {
+.title-albums {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   padding-top: 3.125rem;
@@ -117,6 +137,19 @@ footer {
   .card a img {
     width: 29.5rem;
     height: 29.5rem; }
+
+.card {
+  background-color: #0f0e0f;
+  text-align: center;
+  font-family: "Bangers", cursive;
+  font-size: 2rem; }
+  .card img {
+    height: 22.335rem; }
+
+@media screen and (max-width: 768px) {
+  .card {
+    margin-left: 0rem;
+    margin-bottom: 0rem; } }
 
 .card-body {
   padding: 1.875rem; }
@@ -133,6 +166,15 @@ footer {
   text-align: left !important; }
 
 /*Fin Contacto*/
+/*Footer*/
+footer {
+  padding: 2rem;
+  display: block;
+  background-color: #0f0e0f; }
+
+.redes-sociales a {
+  padding: 0.313rem; }
+
 body {
   padding: 0;
   margin: 0;

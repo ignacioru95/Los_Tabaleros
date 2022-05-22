@@ -4,5 +4,31 @@
 /*Galeria*/
 
 h2 {
+  @include flex-row-center;
   @include titulos;
+}
+
+div {
+  iframe {
+    padding: 20px;
+  }
+}
+
+// // Mediaqueris Tablet
+@media screen and (max-width: 768px) {
+  div {
+    img {
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+// Mediaqueris mobile
+@media (min-width: 240px) and (max-width: 534px) {
+  div {
+    iframe {
+      width: 18.75rem;
+      height: 10.625rem;
+    }
+  }
 }

@@ -4,7 +4,7 @@
 /*Albums*/
 
 // Titulo
-.title-galeria {
+.title-albums {
   @include titulos;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
@@ -17,6 +17,24 @@
       width: 29.5rem;
       height: 29.5rem;
     }
+  }
+}
+
+.card {
+  background-color: $color-navbar;
+  text-align: center;
+  font-family: $tipoografia-home;
+  font-size: $fuente-titulos;
+  img {
+    height: 22.335rem;
+  }
+}
+
+// // Mediaqueris tablet
+@media screen and (max-width: 768px) {
+  .card {
+    margin-left: 0rem;
+    margin-bottom: 0rem;
   }
 }
 

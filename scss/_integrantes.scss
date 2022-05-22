@@ -13,7 +13,7 @@ h2 {
 
 // Cards
 
-.card {
+.cardMember {
   background-color: $color-navbar;
   text-align: center;
   font-family: $tipoografia-home;
@@ -23,9 +23,31 @@ h2 {
   }
 }
 
+.cardMember {
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+
 .btn-primary {
   background-color: $color-amarillo;
   border-color: white;
+}
+
+// // Mediaqueris tablet
+@media screen and (max-width: 768px) {
+  .cardMember {
+    margin-left: 12.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+// Mediaqueris mobile
+@media (min-width: 240px) and (max-width: 534px) {
+  .cardMember {
+    margin-left: 0.6rem;
+    margin-bottom: 1rem;
+  }
 }
 
 /*Fin Integrantes*/

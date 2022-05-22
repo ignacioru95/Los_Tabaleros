@@ -20,22 +20,22 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- Estilos propios -->
   <link rel="stylesheet" href="./css/styles.css">
-  <title>Pagina de Banda/ Ignacio Rosales Urrestarazu</title>
+  <title>Los Tabaleros</title>
 </head>
 
 <body>
   <!--Menú-->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-style">
-    <div class="container nav-link">
-      <a class="navbar-brand title-nav-style m-2" href="../index.html">Los Tabaleros</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand title-nav-style m-2" href="#">Los Tabaleros</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-link">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./Pages/integrantes.html">Integrantes</a>
@@ -46,23 +46,23 @@
           <li class="nav-item">
             <a class="nav-link" href="./Pages/galeria.html">Galeria</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
+          </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               Albums
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="./Pages/albums.html">Todos los Albums</a></li>
               <li><a class="dropdown-item" href="./Pages/discsubmenu/carmesi.html">Carmesi</a></li>
-              <li><a class="dropdown-item" href="./Pages/discsubmenu/./lolita.html">Lolita</a></li>
-              <li><a class="dropdown-item" href="./Pages/discsubmenu/tuy.html">Tuy</a></li>
-              <li><a class="dropdown-item" href="./Pages/discsubmenu/chuy.html">¡Chuy!</a></li>
+              <li><a class="dropdown-item" href="./Pages/discsubmenu/lolita.html">Lolita</a></li>
+              <li><a class="dropdown-item" href="./Pages/discsubmenu/tuy.html">¡Tuy!</a></li>
+              <li><a class="dropdown-item" href="./Pages/discsubmenu/chuy.html">Chuy</a></li>
               <li><a class="dropdown-item" href="./Pages/discsubmenu/unanocheenelparaisoescondido.html">Paraiso
                   Escondido</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
           </li>
         </ul>
       </div>
@@ -74,7 +74,7 @@
     <!--Banner-->
     <section>
       <video class="img-fluid videoBanner" src="./vid/video home.mp4" autoplay muted loop></video>
-      <h1 id="tituloPrincipal" class="col-12">
+      <h1 id="tituloPrincipal" class="animate__animated animate__zoomIn col-12">
         FOLKLORE <br> GALACTICO <br> DE OTRO PLANETA </h1>
     </section>
     <!--Fin del Banner-->
