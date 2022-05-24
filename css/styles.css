@@ -43,6 +43,11 @@ nav div a {
     font-size: 1.5rem;
     bottom: 35rem; } }
 
+@media screen and (min-width: 1366px) {
+  #tituloPrincipal {
+    font-size: 5rem;
+    bottom: 5rem; } }
+
 article h2 {
   display: flex;
   flex-direction: row;
@@ -104,6 +109,39 @@ h2 {
     margin-bottom: 1rem; } }
 
 /*Fin Integrantes*/
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  padding-top: 2rem; }
+
+.titulo-tour {
+  color: #f6c215;
+  font-family: "Bangers", cursive;
+  font-size: 3rem;
+  text-align: center;
+  background-color: #0f0e0f; }
+
+.tour {
+  position: relative;
+  padding-bottom: 2rem;
+  z-index: 10; }
+
+#tour {
+  padding-right: 0;
+  padding-left: 0;
+  background-color: #f6c215;
+  box-shadow: 0px 7px 14px 0px #363636;
+  position: relative; }
+
+.tour-style {
+  background-color: #f6c215; }
+
+div h5 {
+  font-family: "Montserrat", sans-serif; }
+
+div p {
+  font-family: "Montserrat", sans-serif; }
+
 /*Galeria*/
 h2 {
   display: flex;
@@ -160,6 +198,34 @@ div iframe {
 
 /*Fin Albums*/
 /*Sub menu Discos*/
+.video {
+  position: absolute;
+  z-index: -1; }
+
+.album-title {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(140deg, #0f0e0f70 0%, #7b7c7556 35%, #37383559 100%);
+  margin: 8% 17% 6% 0%;
+  z-index: 2;
+  position: relative;
+  padding: 0.25rem !important; }
+
+.portada-album {
+  width: 400px;
+  margin-top: 3rem !important; }
+
+.title-style-albums {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: white;
+  margin-top: 9rem;
+  margin-bottom: 5rem; }
+
+@media screen and (max-width: 768px) {
+  iframe {
+    width: 700px; } }
+
 /*Contacto*/
 .parrafo-contacto {
   font-size: 1.25rem;

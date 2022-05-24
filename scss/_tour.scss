@@ -1,0 +1,45 @@
+@import "variables";
+@import "mixins";
+
+h1 {
+  @include titulos;
+  padding-top: 2rem;
+}
+
+.titulo-tour {
+  color: $color-amarillo;
+  font-family: $tipoografia-home;
+  font-size: $fuente-titulos3;
+  text-align: center;
+  background-color: $color-navbar;
+}
+
+.tour {
+  position: relative;
+  padding-bottom: 2rem;
+  z-index: 10;
+}
+
+#tour {
+  padding-right: 0;
+  padding-left: 0;
+  background-color: $color-amarillo;
+  box-shadow: 0px 7px 14px 0px #363636;
+  position: relative;
+}
+
+.tour-style {
+  background-color: $color-amarillo;
+}
+
+div {
+  h5 {
+    font-family: $tipografia-titulos;
+  }
+}
+
+div {
+  p {
+    font-family: $tipografia-titulos;
+  }
+}

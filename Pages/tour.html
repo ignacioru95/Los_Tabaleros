@@ -5,11 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@600&display=swap"
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Merriweather&family=Montserrat:wght@600&display=swap"
     rel="stylesheet">
+  <!-- Animate-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/styles.css">
@@ -21,12 +27,12 @@
   <nav class="navbar navbar-expand-lg navbar-dark navbar-style">
     <div class="container-fluid">
       <a class="navbar-brand title-nav-style m-2" href="../index.html">Los Tabaleros</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse m-1" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-link">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
           </li>
@@ -39,22 +45,23 @@
           <li class="nav-item">
             <a class="nav-link" href="./galeria.html">Galeria</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               Albums
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="../Pages/discsubmenu/carmesi.html">Carmesi</a></li>
-              <li><a class="dropdown-item" href="./lolita.html">Lolita</a></li>
-              <li><a class="dropdown-item" href="../Pages/discsubmenu/tuy.html">Tuy</a></li>
-              <li><a class="dropdown-item" href="../Pages/discsubmenu/chuy.html">¡Chuy!</a></li>
-              <li><a class="dropdown-item" href="../Pages/discsubmenu/unanocheenelparaisoescondido.html">Paraiso
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./albums.html">Todos los Albums</a></li>
+              <li><a class="dropdown-item" href="./discsubmenu/carmesi.html">Carmesi</a></li>
+              <li><a class="dropdown-item" href="./discsubmenu/lolita.html">Lolita</a></li>
+              <li><a class="dropdown-item" href="./discsubmenu/tuy.html">¡Tuy!</a></li>
+              <li><a class="dropdown-item" href="./discsubmenu/chuy.html">Chuy</a></li>
+              <li><a class="dropdown-item" href="./discsubmenu/unanocheenelparaisoescondido.html">Paraiso
                   Escondido</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Pages/contacto.html">Contacto</a>
           </li>
         </ul>
       </div>
@@ -63,52 +70,125 @@
   <!--Fin delMenú-->
 
   <!--Main-->
-
+  <main class="row justify-content-center">
+    <h1 class="col-12 text-center m-4">Tour 2022</h1>
+    <div class="col-12 col-md-12 mt-4">
+      <div class="row justify-content-center">
+        <h2 class="col-12 col-md-8 titulo-tour">Tabaleros de la Galaxia 2022</h2>
+      </div>
+      <div class="row justify-content-center tour">
+        <section id="tour" class="col-12 col-md-8">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action  tour-style" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1 ">MERLO</h5>
+                <small class="text-muted">SAB, MARZO 12</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">LANUS</h5>
+                <small class="text-muted">SAB, MARZO 26</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">SAN ISIDRO</h5>
+                <small class="text-muted">VIE, ABRIL 8</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">LANUS</h5>
+                <small class="text-muted">SAB, MARZO 26</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">LA PLATA</h5>
+                <small class="text-muted">VIE, MARZO 22</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">LANUS</h5>
+                <small class="text-muted">SAB, MARZO 26</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">MAR DEL PLATA</h5>
+                <small class="text-muted">VIE, MAYO 13</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">LANUS</h5>
+                <small class="text-muted">SAB, MARZO 26</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">TUCUMAN</h5>
+                <small class="text-muted">VIE, MAYO 20</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">LANUS</h5>
+                <small class="text-muted">SAB, MARZO 26</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">SALTA</h5>
+                <small class="text-muted">DOM, MAYO 22</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">LANUS</h5>
+                <small class="text-muted">SAB, MARZO 26</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action  tour-style">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">BUENOS AIRES</h5>
+                <small class="text-muted">MIE, MAYO 25</small>
+              </div>
+              <p class="mb-1">Tabaleros de la Galaxia Tour 2022</p>
+              <small class="text-muted">TICKETS</small>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
   <!--Fin Main-->
-
-  <!-- <div>
-    <div class="title-style-tour ">
-      <h2>Tour 2022</h2>
-    </div>
-    <div class="conteiner-conciertos">
-      <ul class="list-group">
-        <li class="list-group text-center">Ituzaingo</li>
-        <li class="list-group text-center">2 MARZO</li>
-        <li class="list-group aling-items button-album-tour"><button type="submit">TICKET</button></li>
-      </ul>
-      <ul class="list-group ">
-        <li class="list-group text-center">Lanus</li>
-        <li class="list-group text-center">29 FEBRERO</li>
-        <li class="list-group aling-items button-album-tour"> <button type="submit">TICKET</button></li>
-      </ul>
-      <ul class="list-group ">
-        <li class="list-group text-center">San Isidro</li>
-        <li class="list-group text-center">17 ABRIL</li>
-        <li class="list-group aling-items button-album-tour"> <button type="submit">TICKET</button></li>
-      </ul>
-      <ul class="list-group">
-        <li class="list-group text-center">Quilmes</li>
-        <li class="list-group text-center">21 ABRIL</li>
-        <li class="list-group aling-items button-album-tour"> <button type="submit">TICKET</button></li>
-      </ul>
-      <ul class="list-group">
-        <li class="list-group text-center">Mendoza</li>
-        <li class="list-group text-center">5 MAYO</li>
-        <li class="list-group aling-items button-album-tour"> <button type="submit">TICKET</button></li>
-      </ul>
-      <ul class="list-group">
-        <li class="list-group text-center">Misiones</li>
-        <li class="list-group text-center">18 SEPTIEMBRE</li>
-        <li class="list-group aling-items button-album-tour"> <button type="submit">TICKET</button></li>
-      </ul>
-      <ul class="list-group">
-        <li class="list-group text-center">Bariloche</li>
-        <li class="list-group text-center">5 SEPTIEMBRE</li>
-        <li class="list-group aling-items button-album-tour"> <button type="submit">TICKET</button></li>
-      </ul>
-    </div>
-  </div>
-  Fin del Main -->
 
   <!--Footer-->
   <footer class="footer-style static-bottom ">

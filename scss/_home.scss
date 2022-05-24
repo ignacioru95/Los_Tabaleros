@@ -35,6 +35,14 @@
   }
 }
 
+// Mediaqueris Laptop
+@media screen and (min-width: 1366px) {
+  #tituloPrincipal {
+    font-size: $fuente-titulos5;
+    bottom: 5rem;
+  }
+}
+
 // Titlulo
 article {
   h2 {
